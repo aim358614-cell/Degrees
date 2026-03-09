@@ -1,0 +1,12 @@
+// Create Variable //
+const kelvin = 0
+// Subtract celsius from kelvin //
+const celsius = kelvin - 273
+// Fahrenheit code //
+let fahrenheit = celsius * (9/5) + 32
+// Fahrenheit whole number //
+fahrenheit - Math.floor(fahrenheit)
+console.log(`The temperature is ${fahrenheit} degrees Farenheit. `);
+let Newton = celsius * (33/100)
+Newton - Math.floor(Newton)
+console.log(`The temperature is ${Newton} degrees newton. `);
